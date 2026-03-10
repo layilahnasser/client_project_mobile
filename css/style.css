@@ -7,11 +7,11 @@ body {
 }
 .skip-link {
   position: absolute;
-  left: 0.75;
+  left: 0.75rem;
   top: -100px;
   background: #ffcb05;
   color: #00274c;
-  padding: 0.75;
+  padding: 0.75rem;
   font-weight: 700;
   text-decoration: none;
   border-radius: 0.25;
@@ -20,7 +20,7 @@ body {
   transition: top 0.3s ease-in-out;
 }
 .skip-link:focus{
- top: 0.75;
+ top: 0.75rem;
   outline: 3px solid #00274c;
   position: absolute;
   top: 27px;
@@ -45,7 +45,7 @@ iframe {
 h1 {
   font-size: 2rem;
   text-align: center;
-  margin: 0.5;
+  margin: 0.5rem;
   line-height: 1.2;
 }
 
@@ -73,7 +73,7 @@ nav a {
   text-align: center;
   background-color: #FFFFFF;
   color: #00274C;
-  padding:0.9 1rem;
+  padding:0.91rem;
   font-weight: bold;
   border: 2px solid #00274C;
   min-height: 44px;
