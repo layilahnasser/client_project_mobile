@@ -1,0 +1,162 @@
+body {
+  font-family: "Playfair Display", Montserrat;
+  background-color: #00274C;
+  color: #FFFFFF;
+  margin: 0;
+  line-height: 1.5;
+}
+.skip-link {
+  position: absolute;
+  left: 0.75;
+  top: -100px;
+  background: #ffcb05;
+  color: #00274c;
+  padding: 0.75;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 0.25;
+  left: 10px;
+  z-index: 3000;
+  transition: top 0.3s ease-in-out;
+}
+.skip-link:focus{
+ top: 0.75;
+  outline: 3px solid #00274c;
+  position: absolute;
+  top: 27px;
+
+}
+header {
+  color: #FFFFFF;
+  padding: 1rem;
+  border-bottom: 0.35rem solid #ffcb05;
+}
+a {
+  color: #ffffff;
+}
+ img {
+  max-width: 100%;
+}
+iframe {
+  width: 100%;
+  height: 100%;
+  grid-column: 1 / -1;
+}
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0.5;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #ffcb05;
+  margin-top: 0;
+}
+
+p {
+  font-size: 1rem;
+margin-top: 0;
+}
+nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 13px;
+  padding: 0;
+  margin: 1rem;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  background-color: #FFFFFF;
+  color: #00274C;
+  padding:0.9 1rem;
+  font-weight: bold;
+  border: 2px solid #00274C;
+  min-height: 44px;
+}
+nav a:hover,
+nav a:focus {
+  background-color: #ffcb05;
+  color: #00274C;
+  outline: 3px  solid transparent;
+}
+.active {
+text-decoration: underline;
+}
+main {
+  padding: 1rem;
+}
+
+.introduction {
+  background: #f7f9fb;
+  border: 2px solid #00274C;
+  border-left: 0.3rem solid #00274C;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container {
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+ align-items: start;
+}
+
+.card {
+  background-color: #ffffff;
+
+  border-radius: 1px;
+  padding: 1rem;
+  min-height: 12rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #00274C;
+}
+.card-maize {
+  border-top: 0.4rem solid #ffcb05;
+  background-color: #fffbea;
+}
+.card-blue {
+  border-top: 0.4rem solid #00274C;
+  background-color: #f7f9fb;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div {
+  min-height: 125px;
+  padding: 20px;
+  border: 3px solid #ffffff;
+}
+
+
+footer {
+  background: linear-gradient(to right,
+    #000000 0%,
+    #00274C 25%,
+    #ffcb05 70%,
+    #000000 100%
+  );
+  border: 5px solid #ffffff;
+}
+
+
+footer p {
+  font-size: 20px;
+  text-align: right;
+
+  padding: 0;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
